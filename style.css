@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 30px;
+    
+}
+.linkar{
+    color: white;
+    text-decoration: unset;
+}
+.linkar:hover{
+    color: rgb(13, 164, 246);
+    text-decoration: underline;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;  
+    border: 3px solid greenyellow; 
+}
+.img{
+    text-align: center;
+}
+h1{
+    color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h2, h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.container{
+    padding: 0px 50px;
+}
